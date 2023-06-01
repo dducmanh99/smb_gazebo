@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch> 
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+        <arg name="world_file"      value="$(find smb_gazebo)/worlds/empty.world"/>
+        <arg name="use_sim_time"    value="true"/>
+    </include>
+</launch>
